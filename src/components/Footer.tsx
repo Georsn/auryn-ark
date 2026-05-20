@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
             
             <p className="text-xs text-gray-400 font-light leading-relaxed max-w-sm">
-              Inspirado pela mística e pureza de Frieren. Criamos bonecos 3D com resina de polímero premium, esculpidos digitalmente sob as mais ricas formas de iluminação e pintados à mão por artistas apaixonados.
+              Criamos bonecos 3D com resina de polímero premium, esculpidos digitalmente sob as mais ricas formas de iluminação e pintados à mão por artistas apaixonados.
             </p>
 
             <div className="flex items-center gap-3">
