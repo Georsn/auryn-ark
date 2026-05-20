@@ -24,7 +24,7 @@ export const products: Product[] = [
     id: '2',
     name: 'Goku Ultra Instinct - Dragon Ball Super',
     price: 1599.90,
-    image: 'https://http2.mlstatic.com/D_Q_NP_717751-CBT102005608162_122025-O.webp',
+    image: 'https://ae-pic-a1.aliexpress-media.com/kf/S6259fa7b46fb4f3b95690cf7e42d72216.jpg',
     category: 'Anime',
     stockStatus: 'Low Stock',
     stockCount: 3,
