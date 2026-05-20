@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Aura & Magic Colors */
+  --color-brand-primary: #8B5CF6; /* Vibrant Purple */
+  --color-brand-dark: #0D0B14;    /* Ultra Dark Obsidian Purple */
+  --color-brand-card: #151221;    /* Deep Celestial Violet */
+  --color-brand-accent: #FBBF24;  /* Magical Golden Details */
+  --color-brand-gilded: #D97706;  /* Rich Metallic Gold */
+  --color-brand-lavender: #DDD6FE; /* Soft Lavender Secondary */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2545;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-brand-dark);
+  color: #F3F4F6;
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+

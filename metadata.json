@@ -1,0 +1,6 @@
+{
+  "name": "Auryn Ark Studio",
+  "description": "E-commerce de bonecos de animação 3D colecionáveis com design místico e premium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
