@@ -99,9 +99,9 @@ export const products: Product[] = [
   },
   {
     id: '6',
-    name: 'Malenia, Blade of Miquella - Goddess of Rot',
+    name: 'Malenia, Blade of Miquella - Elden Ring',
     price: 1899.90,
-    image: 'https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmalenia-statue-v0-j80o4rff86kb1.jpg%3Fwidth%3D3024%26format%3Dpjpg%26auto%3Dwebp%26s%3D73fa9bf8725f4ca3c6509e5de461c86a613c3578',
+    image: 'https://i.ibb.co/tpBT1C1h/malenia-statue-v0-j80o4rff86kb1.jpg',
     category: 'Games',
     stockStatus: 'Low Stock',
     stockCount: 2,
