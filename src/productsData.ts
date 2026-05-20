@@ -5,26 +5,26 @@ export const products: Product[] = [
     id: '1',
     name: 'Frieren: Beyond Journey\'s End - Eternal Mage',
     price: 1249.90,
-    image: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80',
+    image: 'https://i.ebayimg.com/images/g/u3QAAOSwcHtleQY3/s-l1200.jpg',
     category: 'Anime',
     stockStatus: 'In Stock',
     stockCount: 14,
     scale: '1/7',
     material: 'PVC & ABS Premium',
-    description: 'Estátua premium esculpida meticulosamente em escala 1/7, capturando a elfa Frieren em sua postura icônica de conjuração mágica com seu cajado lendário. Apresenta efeitos translúcidos deslumbrantes imitando runas mágicas ao redor do pedestal místico de acrílico.',
+    description: 'Estátua premium esculpida meticulosamente, capturando a elfa Frieren com seu cajado lendário. Visual estilizado e acabamento cinematográfico. A personagem apresenta efeitos mágicos detalhados, roupas elegantes e base dinâmica, ideal para renders, colecionáveis e projetos de animação.',
     features: [
       'Cajado com detalhes dourados e jóia vermelha facetada',
-      'Efeitos de magia translúcidos acopláveis na base',
-      'Expressão facial calma intercambiável e fecho de cabelo móvel'
+      'Efeitos de magia translúcidos',
+      'Cabelo detalhado em estilo anime'
     ],
     rating: 4.9,
     reviewsCount: 48
   },
   {
     id: '2',
-    name: 'Goku Ultra Instinct - Cosmic Aura Edition',
+    name: 'Goku Ultra Instinct - Dragon Ball Super',
     price: 1599.90,
-    image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=80',
+    image: 'https://http2.mlstatic.com/D_Q_NP_717751-CBT102005608162_122025-O.webp',
     category: 'Anime',
     stockStatus: 'Low Stock',
     stockCount: 3,
@@ -41,7 +41,7 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    name: 'Cyberpunk Mech: Arasaka Vanguard-X9',
+    name: 'WALL-E - Disney Pixar',
     price: 2199.00,
     image: 'https://images.unsplash.com/photo-1589254065878-42c9da997008?w=600&auto=format&fit=crop&q=80',
     category: 'Pop Culture',
@@ -49,49 +49,50 @@ export const products: Product[] = [
     stockCount: 8,
     scale: '1/12 (Articulado)',
     material: 'Liga Metálica Die-cast & ABS',
-    description: 'Figura hiperdetalhada combinando metal fundido sob pressão e peças de ABS de altíssima qualidade. Possui mais de 45 pontos de articulação de alta precisão e cockpit funcional que revela o minúsculo piloto cibernético em seu interior com design futurista.',
+    description: 'Figura hiperdetalhada do icônico robô WALL·E, com visual cinematográfico, detalhes mecânicos e design sci-fi retrô. Ideal para animações, renders, games e colecionáveis digitais.',
     features: [
-      'Articulações com rolamentos de aço ultra-firmes para poses dinâmicas',
-      'Iluminação LED azulada integrada nos propulsores das costas e visores',
-      'Mais de 10 armas intercambiáveis, incluindo o canhão térmico'
+      'Modelagem hard surface detalhada',
+      'Texturas detalhadas',
+      'Pequena planta incluída como acessório icônico',
+      'Estilo fiel ao personagem original'
     ],
     rating: 4.8,
     reviewsCount: 31
   },
   {
     id: '4',
-    name: 'Kratos & Atreus: Norse Fate',
+    name: 'Atreus - God Of War',
     price: 3499.00,
-    image: 'https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=600&auto=format&fit=crop&q=80',
+    image: 'https://rihappy.vtexassets.com/arquivos/ids/2933243-800-auto?v=637842087232530000&width=800&height=auto&aspect=true',
     category: 'Games',
     stockStatus: 'In Stock',
     stockCount: 5,
     scale: '1/4 Standard',
     material: 'Resina Polystone Premium & Tecido Real',
-    description: 'Estátua obra-prima pintada à mão em escala impressionante de 1/4. Captura a consagrada dupla pai e filho Kratos e Atreus em meio ao inverno rigoroso Fimbulwinter, prontos para enfrentar o panteão nórdico e resistir ao Ragnarök. Detalhes de peles reais nas vestes.',
+    description: 'Estátua obra-prima pintada à mão em escala impressionante de 1/4. Captura a consagrada presença do filho de Kratos, Atreus em meio ao inverno rigoroso Fimbulwinter, prontos para enfrentar o panteão nórdico e resistir ao Ragnarök. Detalhes de peles reais nas vestes.',
     features: [
-      'Roupas de couro e tecido real costurados individualmente sobre a resina',
-      'Machado Leviatã e Lâminas do Caos intercambiáveis e detalhados com runas',
-      'Pintura ultra-realista que realça cicatrizes e expressões de fúria'
+      'Roupa detalhada em pele, couro e tecido',
+      'Pintura ultra-realista que realça cicatrizes e expressões de fúria',
+      'Arco artesanal modelado'
     ],
     rating: 5.0,
     reviewsCount: 112
   },
   {
     id: '5',
-    name: 'Miles Morales: Brooklyn Protector Hero',
+    name: 'Miles Morales: Spider Man',
     price: 1149.90,
-    image: 'https://images.unsplash.com/photo-1627856013091-fed6e4e30025?w=600&auto=format&fit=crop&q=80',
+    image: 'https://fbi.cults3d.com/uploaders/18988104/illustration-file/327e1783-e15c-4d84-98fd-9e17db8fecee/spidey4.jpg',
     category: 'Pop Culture',
     stockStatus: 'Out of Stock',
     stockCount: 0,
     scale: '1/8',
     material: 'PVC Premium',
-    description: 'Retratando Miles Morales saltando sobre letreiros e grafites iluminados de Nova Iorque. Feito com tintas fluorescentes que reagem de forma deslumbrante à luz negra, imitando perfeitamente os efeitos dinâmicos de sua bioeletricidade venom.',
+    description: 'Retratando Miles Morales em pose dinâmica de salto, com traje moderno, capuz e base detalhada, trazendo estilo, movimento e alto nível de acabamento. Feito com tintas fluorescentes que reagem de forma deslumbrante à luz negra, imitando perfeitamente os efeitos dinâmicos de sua bioeletricidade venom.',
     features: [
-      'Efeito de teia e faíscas elétricas feitos de PVC translúcido amarelo',
       'Pintura fluorescente especial que brilha sob efeito de luz UV/Luz Negra',
-      'Cabeça opcional sem máscara revelando os traços de Miles'
+      'Base detalhada simulando estrutura urbana',
+      'Alto nível de detalhe em roupas, texturas e proporções'
     ],
     rating: 4.7,
     reviewsCount: 22
@@ -100,16 +101,17 @@ export const products: Product[] = [
     id: '6',
     name: 'Malenia, Blade of Miquella - Goddess of Rot',
     price: 1899.90,
-    image: 'https://images.unsplash.com/photo-1608889174633-41a4c815d017?w=600&auto=format&fit=crop&q=80',
+    image: 'https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fmalenia-statue-v0-j80o4rff86kb1.jpg%3Fwidth%3D3024%26format%3Dpjpg%26auto%3Dwebp%26s%3D73fa9bf8725f4ca3c6509e5de461c86a613c3578',
     category: 'Games',
     stockStatus: 'Low Stock',
     stockCount: 2,
     scale: '1/6',
     material: 'PVC Mágico & Metal Die-Cast',
-    description: 'A guerreira invicta das Terras Intermediárias da icônica franquia Elden Ring, esculpida em detalhes majestosos, trajando sua armadura dourada e capacete alado icônico removível. O braço mecânico protético simula as juntas esféricas do jogo.',
+    description: 'A guerreira invicta das Terras Intermediárias da icônica franquia Elden Ring, esculpida em detalhes majestosos, trajando sua armadura dourada e capacete alado icônico. O braço mecânico protético simula as juntas esféricas do jogo.',
     features: [
-      'Capacete alado de bronze totalmente removível com travas magnéticas',
-      'Braço protético articulado construído em liga leve de cromo metálico',
+      'Braço protético construído em liga leve de cromo metálico',
+      'Capa vermelha esvoaçante com efeito dinâmico de movimento',
+      'Base temática orgânica com tronco, cogumelos e flores inspiradas no universo do jogo',
       'Lâmina curva titânica de 30cm entalhada com detalhes do jogo'
     ],
     rating: 4.9,
@@ -117,19 +119,20 @@ export const products: Product[] = [
   },
   {
     id: '7',
-    name: 'Zelda & Link: Master Sword Legacy',
+    name: 'Zelda & Link: The Legend of Zelda',
     price: 1450.00,
-    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&fit=crop&q=80',
+    image: 'https://fbi.cults3d.com/uploaders/26130607/illustration-file/6f9261da-59b6-4dc2-b9ac-4d27b2ce5d7e/POST-1.png',
     category: 'Games',
     stockStatus: 'In Stock',
     stockCount: 11,
     scale: '1/7',
     material: 'PVC Híbrido Avançado',
-    description: 'Recriando a lendária conexão mágica entre o herói do tempo Link e a princesa de Hyrule Zelda. Link empunha o braço sagrado de Rauru com iluminação especial que absorve a luz do ambiente, enquanto segura a lendária Master Sword corrompida pelo mal.',
+    description: 'Recriando a lendária conexão mágica entre o herói do tempo Link e a princesa de Hyrule Zelda.',
     features: [
-      'Braço de Rauru brilha sob luz negra com gravuras divinas de Hyrule',
-      'Pedestal de luxo simulando ruínas antigas do Templo do Tempo',
-      'Inclui réplica em miniatura do misterioso Purah Pad'
+      'Base temática texturizada',
+      'Personagens com expressões detalhadas',
+      'Detalhamento refinado em roupas e acessórios',
+      'Edição limitada / fan collectible'
     ],
     rating: 4.9,
     reviewsCount: 41
@@ -138,17 +141,18 @@ export const products: Product[] = [
     id: '8',
     name: 'Venti: Windborne Bard Archon',
     price: 1099.90,
-    image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80',
+    image: 'https://fbi.cults3d.com/uploaders/28791449/illustration-file/10327c04-ec6d-47cc-a8b7-dd1466df8c89/venti_np_render_1.png',
     category: 'Anime',
     stockStatus: 'In Stock',
     stockCount: 15,
     scale: '1/7',
     material: 'PVC Translúcido Semirígido',
-    description: 'O bardo do vento Venti levita rodeado por rajadas verdejantes de Anemo esculpidas em resina transparente turquesa e dentes-de-leão flutuantes. Sua lira sagrada "Der Himmel" é meticulosamente adornada e dourada.',
+    description: 'O bardo do vento Venti sentado em um tronco com base natural detalhada, cercado por efeito de vento estilizado e pássaros, com acabamento refinado e visual delicado e encantador.',
     features: [
-      'Visual de rajadas de vento espiraladas flutuantes no suporte traseiro',
-      'Suporte invisível engenhoso ancorado nas asas de vento e pés',
-      'Asas das costas esculpidas em material celestial brilhante'
+      'Efeito de vento estilizado em volta do corpo (elemento Anemo)',
+      'Base detalhada com grama e textura natural',
+      'Pintura com cores suaves e acabamento refinado',
+      'Roupas e acessórios fiéis ao design original do personagem'
     ],
     rating: 4.8,
     reviewsCount: 37
