@@ -38,7 +38,7 @@ export default function Hero({ onScrollToCatalog }: HeroProps) {
                 Modelos <span className="bg-gradient-to-r from-brand-primary via-brand-lavender to-white bg-clip-text text-transparent filter drop-shadow-[0_0_15px_rgba(139,92,246,0.4)]">Tridimensionais</span> Esculpidos à Perfeição
               </h1>
               <p className="text-gray-300 text-base sm:text-lg lg:text-xl font-light leading-relaxed max-w-2xl">
-                Inspirado em <strong className="text-brand-accent font-medium">Frieren: Beyond Journey's End</strong>. O gatinho arquimago do <strong className="text-white">Auryn Ark Studio</strong> abre os portais celestiais para trazer os bonecos 3D mais épicos e detalhados do multiverso à sua estante!
+                O gatinho arquimago do <strong className="text-white">Auryn Ark Studio</strong> abre os portais celestiais para trazer os bonecos 3D mais épicos e detalhados do multiverso à sua estante!
               </p>
             </div>
 
